@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "random warcraft units",
+          "intents": [
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "GetRandomWarcraftUnit",
+                  "slots": [],
+                  "samples": [
+                      "launch random warcraft units",
+                      "open random warcraft units",
+                      "get random warcraft units"
+                  ]
+              },
+              {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+              }
+          ],
+          "types": []
+      }
+  }
+}
